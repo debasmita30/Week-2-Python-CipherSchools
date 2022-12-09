@@ -1,0 +1,19 @@
+def show_loading():
+    for _ in range(3):
+       print(_)
+       print("loading.....","."*(i+1))
+show loading()
+
+Functions can take parameters
+def sheldon_knock(name):
+    for _ in range(3):
+        print("knock knock knock",name)
+sheldon_knock("leonard")
+
+return statement 
+def add(a,b):
+    return a+b
+a=add(1,2)
+print(a)
+
+
